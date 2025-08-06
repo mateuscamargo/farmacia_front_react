@@ -1,3 +1,4 @@
+import farmaciaHome from '../../img/farmacia-home.jpg';
 
 function Home() {
     return (
@@ -23,7 +24,7 @@ function Home() {
 
                     <div className="flex justify-center ">
                         <img
-                            src="https://i.imgur.com/fyfri1v.png"
+                            src={farmaciaHome}
                             alt="Imagem Página Home"
                             className='w-2/3'
                         />
